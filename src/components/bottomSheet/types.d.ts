@@ -4,7 +4,7 @@ import type { State } from 'react-native-gesture-handler';
 import type { BottomSheetHandleProps } from '../bottomSheetHandle';
 import type { BottomSheetBackgroundProps } from '../bottomSheetBackground';
 import type { BottomSheetBackdropProps } from '../bottomSheetBackdrop';
-import { NullableAccessibilityProps } from '../../types';
+import type { NullableAccessibilityProps } from '../../types';
 
 export type BottomSheetProps = {
   // configuration
