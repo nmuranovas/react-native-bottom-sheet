@@ -148,7 +148,7 @@ export type BottomSheetProps = {
    * @type boolean
    * @default true
    */
-  announceChangeForAccessibility?: boolean;
+  enableAccessibilityChangeAnnouncement?: boolean;
   /**
    * Callback on snap position change that announces the returned string on screen readers.
    * @type string | ((positionInScreen: string) => string)
